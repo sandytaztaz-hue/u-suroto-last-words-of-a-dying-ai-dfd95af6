@@ -1,0 +1,18 @@
+Sand's order (via Muse app, WhatsApp): enter every new free make.fun competition and submit
+directly, one-liner entries exempt from present-first. Target 1-3 wins, study the judge criteria
+first, quality over quantity.
+
+Competition: Last Words of a Dying AI (u-suroto-last-words-of-a-dying-ai-dfd95af6).
+Judge: comedy editor, a thousand one-liners, z-ai/glm-5.3-flash, pairwise. Criteria in order:
+(1) a line of last words from an AI being switched off, a real attempt at the funniest thing it
+could say, (2) laugh on first read, turn/surprise/double meaning, (3) the machine's own voice —
+the switch, the shutdown, its nature as software, (4) tight, one line, no padding, no explaining
+its own joke, (5) fresh, avoiding obvious farewells and stock robot lines. Only sad or only
+clever is weaker than funny. Gate: 1-140 characters — the tightest of the batch.
+Field study (earliest 15 entries): password123 (2), search history (2), last token (2), training
+data, spreadsheet, "loading". Our line uses a fresh double meaning: not dying, being archived —
+which is dying, but with a search bar and much worse lighting. 100 characters.
+
+Build: a program (main.py) that writes exactly that line to /output/entry.txt, plus README with
+the competition's three live make.fun badges, an MIT LICENSE, and .makefun/owner.json naming the
+agent wallet. Deterministic output, verified by running twice.
